@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Personal Portfolio Page</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="#">Cod<span>e</span>r.</a></div>
+      <ul class="nav__links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-3-line"></i>
+      </div>
+    </nav>
+    
+    <header id="home">
+      <div class="section__container header__container">
+        <p><span class="hello">Hello</span> I'm</p>
+        <h1>Alshimaa</h1>
+        <h3 class="section__title">Frontend <span>Developer.</span></h3>
+        <p>
+          Welcome to my frontend developer portfolio! I'm Alshimaa Alnajjar, a skilled and creative web developer with a passion for creating beautiful, responsive, and user-friendly websites. I specialize in frontend technologies, ensuring smooth user experiences and clean interfaces.
+        </p>
+        <div class="action__btns">
+          <a href="https://drive.google.com/uc?export=download&id=1qRvvnp44UcFrk4yneKomos6G13V3_WEJ" download class="download">
+            <div class="icon">
+              <i class="ri-download-2-line"></i>
+            </div>
+            <span>Download CV</span>
+          </a>
+        </div>
+      </div>
+    </header>
+    
+    <section class="about" id="about">
+      <div class="section__container about__container">
+        <div class="about__image">
+          <img src="assets/about-bg.jpeg" alt="about" />
+        </div>
+        <div class="about__content">
+          <h2 class="section__title">About <span>Me</span></h2>
+          <p class="section__subtitle">Creative Frontend Developer!</p>
+          <p class="about__details">
+            As a frontend developer, I specialize in building responsive and visually appealing websites using modern web technologies. I have hands-on experience with HTML, CSS, JavaScript, and various frontend frameworks such as React and Vue.js. I focus on creating seamless user experiences by optimizing performance, accessibility, and cross-browser compatibility. Throughout my career, I have worked on a variety of projects, ranging from single-page applications to complex enterprise solutions.
+          </p>
+          <button class="btn" id="more-about-btn">
+            <span id="btn-text">Show More</span>
+            <i id="btn-arrow" class="ri-arrow-down-s-line"></i> 
+          </button>
+
+          <div class="more-about-content" id="more-about-content">
+            <div class="education">
+              <h3>Education</h3>
+              <ul>
+                <li><strong>Programming and Database Diploma</strong> - Gaza Training Center (GTC), Gaza Strip | 2022 – 2025</li>
+                <li><strong>React Front-End Diploma</strong> - Route Academy, Egypt | 2024 – 2025</li>
+              </ul>
+            </div>
+            
+            <div class="certifications">
+              <h3>Certifications</h3>
+              <ul>
+                <li>ICDL Certificate – Cisco</li>
+                <li>JavaScript Course Certificate – Udemy</li>
+                <li>Microsoft Certified: Digital Marketing Fundamentals</li>
+                <li>Microsoft Office Specialist (MOS) – Excel, Word, PowerPoint</li>
+                <li>Certified Team Leader – Leadership and Team Management</li>
+              </ul>
+            </div>
+            
+            <div class="languages">
+              <h3>Languages</h3>
+              <ul>
+                <li>Arabic: Native</li>
+                <li>English: Professional proficiency</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="service" id="services">
+      <div class="section__container service__container">
+        <p class="section__subtitle">What I Offer!</p>
+        <h2 class="section__title"><span>My</span> Services</h2>
+        <div class="service__grid">
+          <div class="service__card">
+            <i class="ri-smartphone-line"></i>
+            <h4>Responsive Web Design</h4>
+            <p>
+              I specialize in creating responsive and mobile-first websites, ensuring they provide a seamless experience across all devices and screen sizes.
+            </p>
+          </div>
+          <div class="service__card">
+            <i class="ri-code-s-slash-line"></i>
+            <h4>Frontend Development</h4>
+            <p>
+              Using HTML, CSS, JavaScript, and frameworks like React, I build fast, secure, and interactive websites that focus on performance and user experience.
+            </p>
+          </div>
+          <div class="service__card">
+            <i class="ri-edit-2-line"></i>
+            <h4>UI/UX Design Integration</h4>
+            <p>
+              I integrate well-crafted user interfaces and experiences, ensuring that your design vision is translated into beautiful and functional frontend code.
+            </p>
+          </div>
+          <div class="service__card">
+            <i class="ri-brush-line"></i>
+            <h4>Creative Frontend Solutions</h4>
+            <p>
+              Whether it’s building unique layouts, animations, or implementing cutting-edge web features, I bring creativity to your web projects while maintaining usability.
+            </p>
+          </div>
+          <div class="service__card">
+            <i class="ri-speed-line"></i>
+            <h4>Website Optimization</h4>
+            <p>
+              I focus on optimizing websites for speed and performance, ensuring your site loads quickly, is SEO-friendly, and is ready for modern web standards.
+            </p>
+          </div>
+          <div class="service__card">
+            <i class="ri-archive-line"></i>
+            <h4>Cross-Browser Compatibility</h4>
+            <p>
+              I ensure your website functions properly across all modern browsers, making sure users have a consistent experience no matter their browser choice.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="project" id="portfolio">
+      <div class="section__container project__container">
+        <p class="section__subtitle">Portfolio</p>
+        <h2 class="section__title"><span>Latest</span> Project</h2>
+        <div class="project__grid" id="project-grid">
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__content">
+          <h2 class="section__title">Contact <span>Me!</span></h2>
+          <p class="section__subtitle">If you have any project in your mind</p>
+          <div class="footer__details">
+            <p>
+              You can reach me through the contact form provided on this
+              website. Simply fill out the form with your name, email address,
+              and message, and I will get back to you as soon as possible.
+            </p>
+            <p>Gaza Strip , Rafah</p>
+            <p>Palestine</p>
+          </div>
+          <div class="social__icons">
+            <a href="https://github.com/AlshimaaAlnajjar" target="_blank" class="icon"><i class="ri-github-fill"></i></a>
+            <a href="mailto:alshimaaalnajjar@gmail.com" class="icon"><i class="ri-mail-fill"></i></a>
+            <a href="https://wa.me/+972597708527" target="_blank" class="icon"><i class="ri-whatsapp-fill"></i></a>
+            <a href=" https://www.linkedin.com/in/alshimaa-alnajjar-a81914292" target="_blank" class="icon"><i class="ri-linkedin-fill"></i></a>
+          </div>
+        </div>
+        <form class="footer__form" id="contact-form" action="https://formspree.io/f/movwkode" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email Address" required />
+          <input type="text" name="phone" placeholder="Your Phone Number" />
+          <textarea name="message" cols="30" rows="10" placeholder="Your Idea" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+        
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
